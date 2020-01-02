@@ -6,9 +6,9 @@ import java.util.Set;
 
 
 public interface CustomerService {
-	   void addEmployee(Customer e);
+	Customer addEmployee(Customer e);
 
-	    Customer findCustomerByMobileNo(int mobileNo);
+	Customer findCustomerByMobileNo(int mobileNo);
 
-	    Set<Customer> allCustomer();
+	Set<Customer> allCustomer();
 }
